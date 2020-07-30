@@ -1,6 +1,6 @@
 # GeoCarb Mission Observation Scenario Tool (MOST)
 
-![scangif](https://https://github.com/GeoCarb/GCMOST/images/sample_scan.gif)
+![scangif](https://github.com/GeoCarb/GCMOST/images/sample_scan.gif)
 
 ![version](https://img.shields.io/badge/version-1.0-blue)
 ![python](https://img.shields.io/badge/python-%3E%3D3.7-critical)
