@@ -38,7 +38,7 @@ To install run,
 `pip install git+https://github.com/GeoCarb/GCMOST#egg=gcmost`.
 
 ## Menu
-After successful installation, alter the file `menus/main_menu_template.py` and save it to your working directory (we will call it `main_menu.py`). For detailed description on menu options, refer to this <a href="https://github.com/GeoCarb/GCMOST/tree/master/menus/menuDescription.md" target="_blank">document</a>
+After successful installation, alter the file `menus/main_menu_template.py` and save it to your working directory (we will call it `main_menu.py`). For detailed description on menu options, refer to this <a href="https://github.com/GeoCarb/GCMOST/tree/master/menus/README.md" target="_blank">document</a>
 
 ## Run
 Run the program by typing to the command line,
