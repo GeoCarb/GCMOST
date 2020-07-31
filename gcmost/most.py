@@ -381,4 +381,4 @@ def main(menu):
     endtime = time.time()
     totaltime = endtime-starttime
     print(f'Total time elapsed in seconds: {totaltime}')
-    return
+    return coverset
