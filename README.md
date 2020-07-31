@@ -1,4 +1,5 @@
 # GeoCarb Mission Observation Scenario Tool (MOST)
+### by Jeff Nivitanont
 
 ![scangif](https://github.com/GeoCarb/GCMOST/blob/master/images/sample_scan.gif)
 
@@ -12,6 +13,7 @@
 * [Installation](#installation)
 * [Menu](#menu)
 * [Run](#run)
+* [Credits](#credits)
 
 ## Description
 This tool was created to create an optimized scanning strategy for the GeoCarb, geostationary carbon cycle observatory, instrument (<a href="https://ou.edu/geocarb" target="_blank">GeoCarb website</a>).
@@ -44,3 +46,7 @@ Run the program by typing to the command line,
 `gcmost-main main_menu.py`.
 
 By default, outputs will be saved to a folder in the working directory called `./output/`.
+
+## Credits
+
+Thanks to Sean Crowell (U. of Oklahoma) for advising on this project and to Peter Rayner (U. of Melbourne) for sharing some Earth calculation code.
