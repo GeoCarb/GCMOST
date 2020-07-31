@@ -6,8 +6,15 @@
 ![python](https://img.shields.io/badge/python-%3E%3D3.7-critical)
 ![license](https://img.shields.io/badge/license-MIT-yellow)
 
+## Table of Contents
+* [Description](#description)
+* [Dependencies](#dependencies)
+* [Installation](#installation)
+* [Menu](#menu)
+* [Run](#run)
+
 ## Description
-This tool was created to create an optimized scanning strategy for the GeoCarb, geostationary carbon cycle observatory, instrument.
+This tool was created to create an optimized scanning strategy for the GeoCarb, geostationary carbon cycle observatory, instrument (<a href="https://ou.edu/geocarb" target="_blank">GeoCarb website</a>).
 
 ## Dependencies
 * numpy
@@ -23,7 +30,9 @@ This tool was created to create an optimized scanning strategy for the GeoCarb, 
 * netCDF4
 
 ## Installation
-(If you have a package manager, i.e., `conda`, it is recommended to create a separate environment due to the number of dependencies required.) To install run,
+> If you have a package manager, i.e., `conda`, it is recommended to create a separate environment due to the number of dependencies required.
+To install run,
+
 `pip install git+https://github.com/GeoCarb/GCMOST#egg=gcmost`.
 
 ## Menu
@@ -31,6 +40,7 @@ After successful installation, alter the file `menus/main_menu_template.py` and 
 
 ## Run
 Run the program by typing to the command line,
+
 `gcmost-main main_menu.py`.
 
 By default, outputs will be saved to a folder in the working directory called `./output/`.
