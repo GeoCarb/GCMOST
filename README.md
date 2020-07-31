@@ -34,9 +34,16 @@ This tool was created to generate signal-to-noise (SNR) optimized scanning strat
 
 ## Installation
 > If you have a package manager, i.e., `conda`, it is recommended to create a separate environment due to the number of dependencies required.
-To install run,
+See [Releases](https://github.com/GeoCarb/GCMOST/releases) to view the latest source distribution and wheel.
 
-`pip install git+https://github.com/GeoCarb/GCMOST#egg=gcmost`.
+(Recommended) To install from wheel run,
+
+`pip install https://github.com/GeoCarb/GCMOST/releases/download/v1.0/gcmost-1.0-py3-none-any.whl`
+
+To install from source run,
+
+`pip install https://github.com/GeoCarb/GCMOST/releases/download/v1.0/gcmost-1.0.tar.gz`
+
 
 ## Menu
 After successful installation, alter the file `menus/main_menu_template.py` and save it to your working directory (we will call it `main_menu.py`). For detailed description on menu options, refer to this <a href="https://github.com/GeoCarb/GCMOST/tree/master/menus/README.md" target="_blank">document</a>.
@@ -44,7 +51,7 @@ After successful installation, alter the file `menus/main_menu_template.py` and 
 ## Run
 To run the program from the command line, enter the following
 
-`gcmost-main main_menu.py`.
+`gcmost-main main_menu.py`
 
 MOST can also be run from within python by running the following lines of code,
 
