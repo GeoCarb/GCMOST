@@ -49,4 +49,4 @@ By default, outputs will be saved to a folder in the working directory called `.
 
 ## Credits
 
-Thanks to Sean Crowell (U. of Oklahoma) for advising on this project and to Peter Rayner (U. of Melbourne) for sharing some Earth calculation code.
+Thanks to Sean Crowell (U. of Oklahoma) for advising on this project and to Peter Rayner (U. of Melbourne) for sharing some Earth geometry calculation code.
