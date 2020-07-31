@@ -40,6 +40,13 @@ intro = '''\n\n\n
 \n\n\n'''
 
 def main():
+    '''
+    Main program for generating a GeoCarb scanning strategy.
+    Params:
+    - menu: (str) pointer to main menu file.
+    Returns:
+        A daily GeoCarb scanning strategy.
+    '''
     starttime = time.time()
     print(intro)
     time.sleep(2)
@@ -47,7 +54,6 @@ def main():
     print('Loading menu...')
     time.sleep(1)
     menu = sys.argv[1]
-    # menu = os.path.join(moddir, 'menu/default_menu.py')
     assert isinstance(menu, str), 'Please provide a valid string pointer to the main menu.'
     g = globals()
     loadmenu(menu, g)
