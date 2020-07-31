@@ -584,6 +584,9 @@ def plotCoversetStatic(coverset, **fig_kwargs):
     ax1.set_facecolor('paleturquoise')
     coverset.plot(ax=ax1, zorder=7, alpha=0.4, color=[f'{s:1.03}' for s in coverset.index/len(coverset)], cmap='plasma', edgecolor='black')
     plt.colorbar(cm.ScalarMappable(norm=Normalize(0,len(coverset)), cmap='plasma'), ax=ax1, label='scan order')
+    scanStart = coverset.loc[0,'time']
+    ax1.text(0., 1., f'Start {scanStart}GMT', transform=ax1.transAxes, fontsize=8)
+    ax1.text(0.8, 1., f'{len(coverset)} blocks', transform=ax1.transAxes, fontsize=8)
     return fig
 
 def createScanMov(mesh_df, coverset, interest=None):
