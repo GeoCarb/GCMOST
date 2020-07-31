@@ -45,7 +45,7 @@ def main():
     Params:
     - menu: (str) pointer to main menu file.
     Returns:
-        A daily GeoCarb scanning strategy.
+        None. Saves output to saveDirectory in menu.
     '''
     starttime = time.time()
     print(intro)
