@@ -442,7 +442,7 @@ def greedy_gc_cost(
     
     if not blockset.is_valid.all():
         raise RuntimeError('Invalid geometries in blocks.')
-    if (not reservations is None) and reservations.duplicated().any():
+    if (not reservations is None) and reservations['time'].duplicated().any():
         raise RuntimeError('Duplicate reservation times.')
     universe = universe_set
     timewindow = pd.DatetimeIndex(mesh_df.columns[3:])
