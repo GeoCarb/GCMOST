@@ -87,3 +87,4 @@ compareToBaseline = True
 * `plotCoverset`: `True/False` switch for plotting results and saving to `saveDirectory`. Default is `True`.
 * `createMov`: `True/False` switch for creating a `.mov` file of the resulting scanning strategy. Default is `True`.
 * `compareToBaseline`: `True/False` switch for comparing to a baseline strategy given in Nivitanont et al. 2019. The resulting plot gives histograms of xco2_uncert, signal-to-noise ratio, solar zenith angle, and satellite zenith angle. Default is `True`.
+> Note: `compareToBaseline` function is still in beta testing. Please report any bugs found.
