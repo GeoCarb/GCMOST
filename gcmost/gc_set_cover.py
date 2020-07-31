@@ -52,7 +52,7 @@ latlon = 'EPSG:4326'
 
 def userconfirmation():
     '''Helper function to read command line input'''
-    print('Review menu options and confirm(Y/N) to start program.')
+    print('Review menu options and confirm (Y/N + enter) to start program.')
     response = input()
     if response.strip().lower() in ['y','yes', '1']:
         print('Starting program.')
