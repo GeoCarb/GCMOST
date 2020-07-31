@@ -13,9 +13,9 @@ scanBlockGeoms = None # This should point to candidate scan blocks (fine, medium
 timewindowFile = None  #Supply a pre-calculated timewindow. If None, timewindow is calculated.
 afwindowFile = None  #Supply a pre-calculated airmass window. If None, grids are calculated. 
 #   If af_window is provided without timewindow, will be recalculated.
-areaOfInterestFile = None #'mostpopcities_whem.pkl'
-reservedScanBlocksFile = None #'testreservation.pkl'
-cloudProbabilityMapFile = None #'testprecip.pkl'
+areaOfInterestFile = None # can test with 'testingData/mostpopcities_whem.pkl'
+reservedScanBlocksFile = None # can test with 'testingData/testreservation.pkl'
+cloudProbabilityMapFile = None # can test with 'testingData/testprecip.pkl'
 
 ##/--COMPUTING OPTIONS--/
 enableParallel = True #Recommend turning on. A single 2.5Ghz CPU, ~7-10mins to calculate airmass grid.
