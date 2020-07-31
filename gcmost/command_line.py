@@ -84,7 +84,7 @@ def main():
         alb_map = joblib.load(modisDefault)[f'{year}{month:02}{day}']
     else:
         modis = Dataset(modisAlbedo, 'r')
-        alb_map = modis.variables[f'{year}{month:02}{day}'][:]
+        alb_map = modis.variables['wsa_band6'][day-1]
             #MODIS data is oriented (x,y) = (0,0) at bottom left corner
         modis.close()
     ## LOAD CANDIDATE BLOCKSET
