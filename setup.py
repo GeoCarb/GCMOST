@@ -17,7 +17,7 @@ setup(
     # Needed for dependencies
     install_requires=['numpy', 'matplotlib', 'descartes',
     'numba', 'shapely', 'pyproj', 'cartopy', 'pandas',
-    'geopandas', 'joblib', 'netCDF4',],
+    'geopandas==0.7.0', 'joblib', 'netCDF4', 'ffmpeg'],
     # *strongly* suggested for sharing
     version='1.0',
     license='MIT',
