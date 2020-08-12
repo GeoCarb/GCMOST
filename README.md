@@ -38,11 +38,11 @@ See [Releases](https://github.com/GeoCarb/GCMOST/releases) to view the latest so
 
 (Recommended) To install from wheel run,
 
-`pip install https://github.com/GeoCarb/GCMOST/releases/download/v1.0/gcmost-1.0-py3-none-any.whl`
+`pip install https://github.com/GeoCarb/GCMOST/releases/download/v1.0/gcmost-1.0.1-py3-none-any.whl`
 
 To install from source run,
 
-`pip install https://github.com/GeoCarb/GCMOST/releases/download/v1.0/gcmost-1.0.tar.gz`
+`pip install https://github.com/GeoCarb/GCMOST/releases/download/v1.0/gcmost-1.0.1.tar.gz`
 
 
 ## Menu
