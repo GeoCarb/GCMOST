@@ -19,7 +19,7 @@ setup(
     'numba', 'shapely', 'pyproj', 'cartopy', 'pandas',
     'geopandas==0.7.0', 'joblib', 'netCDF4', 'ffmpeg'],
     # *strongly* suggested for sharing
-    version='1.0',
+    version='1.0.1',
     license='MIT',
     description='GeoCarb Mission Observation Scenario Tool(MOST)',
     # We will also need a readme eventually (there will be a warning)
